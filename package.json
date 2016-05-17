@@ -1,0 +1,22 @@
+{
+  "name": "react-haunted-mansion-backend",
+  "version": "1.0.0",
+  "description": "backend for react-haunted-mansion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Ethan Friedman <ethanjfriedman@gmail.com> (http://www.ethanjfriedman.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^6.2.0",
+    "mongoose": "^4.4.14"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.2"
+  }
+}
